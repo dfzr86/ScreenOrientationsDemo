@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74F45CF21DF9704E00470BCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F45CF11DF9704E00470BCB /* main.m */; };
+		74F45CF51DF9704E00470BCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F45CF41DF9704E00470BCB /* AppDelegate.m */; };
+		74F45CF81DF9704E00470BCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F45CF71DF9704E00470BCB /* ViewController.m */; };
+		74F45CFB1DF9704E00470BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F45CF91DF9704E00470BCB /* Main.storyboard */; };
+		74F45CFD1DF9704E00470BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F45CFC1DF9704E00470BCB /* Assets.xcassets */; };
+		74F45D001DF9704E00470BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F45CFE1DF9704E00470BCB /* LaunchScreen.storyboard */; };
+		74F45D0B1DF9704E00470BCB /* ScreenOrientationsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F45D0A1DF9704E00470BCB /* ScreenOrientationsDemoTests.m */; };
+		74F45D171DF9710900470BCB /* BaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F45D161DF9710900470BCB /* BaseNavController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74F45D071DF9704E00470BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74F45CE51DF9704E00470BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74F45CEC1DF9704E00470BCB;
+			remoteInfo = ScreenOrientationsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74F45CED1DF9704E00470BCB /* ScreenOrientationsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenOrientationsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F45CF11DF9704E00470BCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74F45CF31DF9704E00470BCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74F45CF41DF9704E00470BCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74F45CF61DF9704E00470BCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74F45CF71DF9704E00470BCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74F45CFA1DF9704E00470BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74F45CFC1DF9704E00470BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74F45CFF1DF9704E00470BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74F45D011DF9704E00470BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F45D061DF9704E00470BCB /* ScreenOrientationsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenOrientationsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F45D0A1DF9704E00470BCB /* ScreenOrientationsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenOrientationsDemoTests.m; sourceTree = "<group>"; };
+		74F45D0C1DF9704E00470BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F45D151DF9710900470BCB /* BaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavController.h; sourceTree = "<group>"; };
+		74F45D161DF9710900470BCB /* BaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74F45CEA1DF9704E00470BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F45D031DF9704E00470BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74F45CE41DF9704E00470BCB = {
+			isa = PBXGroup;
+			children = (
+				74F45CEF1DF9704E00470BCB /* ScreenOrientationsDemo */,
+				74F45D091DF9704E00470BCB /* ScreenOrientationsDemoTests */,
+				74F45CEE1DF9704E00470BCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74F45CEE1DF9704E00470BCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74F45CED1DF9704E00470BCB /* ScreenOrientationsDemo.app */,
+				74F45D061DF9704E00470BCB /* ScreenOrientationsDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74F45CEF1DF9704E00470BCB /* ScreenOrientationsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				74F45CF31DF9704E00470BCB /* AppDelegate.h */,
+				74F45CF41DF9704E00470BCB /* AppDelegate.m */,
+				74F45CF61DF9704E00470BCB /* ViewController.h */,
+				74F45CF71DF9704E00470BCB /* ViewController.m */,
+				74F45D151DF9710900470BCB /* BaseNavController.h */,
+				74F45D161DF9710900470BCB /* BaseNavController.m */,
+				74F45CF91DF9704E00470BCB /* Main.storyboard */,
+				74F45CFC1DF9704E00470BCB /* Assets.xcassets */,
+				74F45CFE1DF9704E00470BCB /* LaunchScreen.storyboard */,
+				74F45D011DF9704E00470BCB /* Info.plist */,
+				74F45CF01DF9704E00470BCB /* Supporting Files */,
+			);
+			path = ScreenOrientationsDemo;
+			sourceTree = "<group>";
+		};
+		74F45CF01DF9704E00470BCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74F45CF11DF9704E00470BCB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74F45D091DF9704E00470BCB /* ScreenOrientationsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				74F45D0A1DF9704E00470BCB /* ScreenOrientationsDemoTests.m */,
+				74F45D0C1DF9704E00470BCB /* Info.plist */,
+			);
+			path = ScreenOrientationsDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74F45CEC1DF9704E00470BCB /* ScreenOrientationsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F45D0F1DF9704E00470BCB /* Build configuration list for PBXNativeTarget "ScreenOrientationsDemo" */;
+			buildPhases = (
+				74F45CE91DF9704E00470BCB /* Sources */,
+				74F45CEA1DF9704E00470BCB /* Frameworks */,
+				74F45CEB1DF9704E00470BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenOrientationsDemo;
+			productName = ScreenOrientationsDemo;
+			productReference = 74F45CED1DF9704E00470BCB /* ScreenOrientationsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74F45D051DF9704E00470BCB /* ScreenOrientationsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F45D121DF9704E00470BCB /* Build configuration list for PBXNativeTarget "ScreenOrientationsDemoTests" */;
+			buildPhases = (
+				74F45D021DF9704E00470BCB /* Sources */,
+				74F45D031DF9704E00470BCB /* Frameworks */,
+				74F45D041DF9704E00470BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74F45D081DF9704E00470BCB /* PBXTargetDependency */,
+			);
+			name = ScreenOrientationsDemoTests;
+			productName = ScreenOrientationsDemoTests;
+			productReference = 74F45D061DF9704E00470BCB /* ScreenOrientationsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74F45CE51DF9704E00470BCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = LeCloud;
+				TargetAttributes = {
+					74F45CEC1DF9704E00470BCB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					74F45D051DF9704E00470BCB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74F45CEC1DF9704E00470BCB;
+					};
+				};
+			};
+			buildConfigurationList = 74F45CE81DF9704E00470BCB /* Build configuration list for PBXProject "ScreenOrientationsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74F45CE41DF9704E00470BCB;
+			productRefGroup = 74F45CEE1DF9704E00470BCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74F45CEC1DF9704E00470BCB /* ScreenOrientationsDemo */,
+				74F45D051DF9704E00470BCB /* ScreenOrientationsDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74F45CEB1DF9704E00470BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F45D001DF9704E00470BCB /* LaunchScreen.storyboard in Resources */,
+				74F45CFD1DF9704E00470BCB /* Assets.xcassets in Resources */,
+				74F45CFB1DF9704E00470BCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F45D041DF9704E00470BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74F45CE91DF9704E00470BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F45CF81DF9704E00470BCB /* ViewController.m in Sources */,
+				74F45CF51DF9704E00470BCB /* AppDelegate.m in Sources */,
+				74F45D171DF9710900470BCB /* BaseNavController.m in Sources */,
+				74F45CF21DF9704E00470BCB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F45D021DF9704E00470BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F45D0B1DF9704E00470BCB /* ScreenOrientationsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74F45D081DF9704E00470BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74F45CEC1DF9704E00470BCB /* ScreenOrientationsDemo */;
+			targetProxy = 74F45D071DF9704E00470BCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74F45CF91DF9704E00470BCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F45CFA1DF9704E00470BCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74F45CFE1DF9704E00470BCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F45CFF1DF9704E00470BCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74F45D0D1DF9704E00470BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74F45D0E1DF9704E00470BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74F45D101DF9704E00470BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScreenOrientationsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.letv.ScreenOrientationsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74F45D111DF9704E00470BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScreenOrientationsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.letv.ScreenOrientationsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74F45D131DF9704E00470BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScreenOrientationsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.letv.ScreenOrientationsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenOrientationsDemo.app/ScreenOrientationsDemo";
+			};
+			name = Debug;
+		};
+		74F45D141DF9704E00470BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScreenOrientationsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.letv.ScreenOrientationsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenOrientationsDemo.app/ScreenOrientationsDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74F45CE81DF9704E00470BCB /* Build configuration list for PBXProject "ScreenOrientationsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F45D0D1DF9704E00470BCB /* Debug */,
+				74F45D0E1DF9704E00470BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F45D0F1DF9704E00470BCB /* Build configuration list for PBXNativeTarget "ScreenOrientationsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F45D101DF9704E00470BCB /* Debug */,
+				74F45D111DF9704E00470BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74F45D121DF9704E00470BCB /* Build configuration list for PBXNativeTarget "ScreenOrientationsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F45D131DF9704E00470BCB /* Debug */,
+				74F45D141DF9704E00470BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74F45CE51DF9704E00470BCB /* Project object */;
+}
